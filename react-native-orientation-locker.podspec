@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.description    = package['description']
   s.license        = package['license']
   s.author         = package['author']
-  s.homepage       = package['homepage']
+  s.homepage       = 'https://github.com/IgorBelyayev/react-native-orientation-locker'
   s.source         = { :git => 'https://github.com/wonday/react-native-orientation-locker.git', :tag => s.version }
 
   s.requires_arc   = true
